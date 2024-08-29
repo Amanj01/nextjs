@@ -14,15 +14,15 @@ const GetApp = () => {
               type="button"
               title="App Store"
               icon="/apple.svg"
-              variant="btn_white"
-              full
+              variant="btn_dark_green"
+              
             />
             <Button 
               type="button"
               title="Play Store"
               icon="/android.svg"
-              variant="btn_dark_green_outline"
-              full
+              variant="btn_dark_green"
+              
             />
           </div>
         </div>
@@ -34,5 +34,4 @@ const GetApp = () => {
     </section>
   )
 }
-
 export default GetApp
